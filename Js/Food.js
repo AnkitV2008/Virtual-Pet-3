@@ -2,8 +2,7 @@ class Food {
   constructor(){
   this.foodStock=0;
   this.lastFed;
-  this.image=loadImage('Images/FoodStock.png');
-
+  this.image=loadImage('Images/milk.png');
   }
 
  updateFoodStock(foodStock){
@@ -45,8 +44,7 @@ class Food {
           y=y+50;
         }
         image(this.image,x,y,50,50);
-        x=x+50;
-        
+        x=x+30;
       }
     }
   }
